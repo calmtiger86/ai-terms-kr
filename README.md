@@ -1,9 +1,11 @@
-# 📖 AI 용어 사전 — 비개발자를 위한 한국어 가이드
+# 📖 AI 용어 사전 — 직장인·대학생·소상공인을 위한 생성형 AI 한국어 가이드
 
 > AI 뉴스를 읽다가 "이게 뭔 소리지?" 하고 멈춘 적 있으시죠?
 > 이 사전은 **수식 없이, 코드 없이, 일상어 비유로만** AI 용어를 정리합니다.
 
-**매일 아침 AI 소식을 쉽게 받아보고 싶다면 → [Ultrathink AI 뉴스레터 (첫 달 무료)](https://page.stibee.com/subscriptions/480200?utm_source=github&utm_medium=glossary)**
+**AI 뉴스가 내 일에 어떤 의미인지 먼저 보고 싶다면 → [비개발자를 위한 Ultrathink AI 아침 리포트](https://ai-morning-report-landing.vercel.app/?utm_source=github&utm_medium=organic&utm_campaign=ai_terms_kr&utm_content=top_cta)**
+
+📧 **[매일 아침 이메일로 받기](https://page.stibee.com/subscriptions/480200?utm_source=github&utm_medium=organic&utm_campaign=ai_terms_kr&utm_content=top_subscribe)**
 
 ---
 
@@ -11,6 +13,7 @@
 
 - [기본 개념](#기본-개념)
 - [대화와 사용](#대화와-사용)
+- [내 상황에 맞는 AI 활용법](#내-상황에-맞는-ai-활용법)
 - [기술 용어](#기술-용어)
 - [비즈니스 용어](#비즈니스-용어)
 
@@ -54,6 +57,48 @@ AI가 **한 번에 기억할 수 있는 대화의 양**.
 AI가 **사실이 아닌 걸 그럴듯하게 지어내는** 현상.
 > 비유: 모르는 걸 모른다고 못 하고 자신감 넘치게 대답하는 사람. 중요한 정보는 반드시 확인 필요.
 
+### 딥리서치 (Deep Research)
+AI가 한 번 답하고 끝내는 대신, **여러 자료를 찾아 비교하고 출처가 달린 긴 조사 결과를 만드는 기능**.
+> 비유: 검색 결과 하나만 읽는 것이 아니라 여러 자료를 검토해 조사 보고서를 만드는 리서치 어시스턴트. 원문 출처가 실제로 주장을 뒷받침하는지는 사람이 다시 확인해야 함.
+
+### AI 코파일럿 (AI Copilot)
+문서 작성, 자료 정리, 디자인처럼 **사람이 하던 작업 옆에서 초안과 다음 행동을 제안하는 AI 도우미**.
+> 비유: 운전대를 대신 잡는 자율주행이 아니라, 경로와 위험을 알려주는 부조종사. 최종 판단과 책임은 사용자에게 있음.
+
+### AI 워크플로 자동화 (AI Workflow Automation)
+요약, 분류, 초안 작성, 알림 같은 **반복 작업을 순서대로 연결해 AI가 처리하게 하는 방식**.
+> 비유: 매번 손으로 옮기던 서류를 컨베이어 벨트에 올리는 것. 처음에는 작은 반복 업무 하나부터 자동화하고 결과를 검토하는 편이 안전함.
+
+### AI 리터러시 (AI Literacy)
+AI를 단순히 쓸 줄 아는 것을 넘어 **결과를 검증하고, 개인정보·저작권·편향 위험을 판단하며 책임 있게 사용하는 능력**.
+> 비유: 검색창 사용법뿐 아니라 어떤 출처를 믿어야 하는지 아는 정보 문해력의 AI 버전.
+
+---
+
+## 내 상황에 맞는 AI 활용법
+
+한국어로 많이 찾는 활용 목적을 용어와 연결했습니다. 제품 이름보다 **어떤 일을 줄일지**부터 정하면 도구가 바뀌어도 응용하기 쉽습니다.
+
+### 직장인 AI 업무 자동화
+- 회의 메모를 핵심 결정·담당자·마감일로 정리하기 → [프롬프트](#프롬프트-prompt), [AI 워크플로 자동화](#ai-워크플로-자동화-ai-workflow-automation)
+- 긴 보고서의 쟁점과 근거를 조사하기 → [딥리서치](#딥리서치-deep-research), [할루시네이션](#할루시네이션-hallucination)
+- 워드·메일·스프레드시트 초안 만들기 → [AI 코파일럿](#ai-코파일럿-ai-copilot)
+
+### 대학생 생성형 AI 과제·공부
+- 강의 자료를 요약하고 복습 문제 만들기 → [컨텍스트 윈도우](#컨텍스트-윈도우-context-window), [RAG](#rag-검색증강생성)
+- 보고서 개요와 반론을 찾되 원문 출처 확인하기 → [딥리서치](#딥리서치-deep-research), [AI 리터러시](#ai-리터러시-ai-literacy)
+- 수업의 AI 사용·출처 표기 기준을 먼저 확인하기 → [AI 리터러시](#ai-리터러시-ai-literacy)
+
+### 소상공인 AI 마케팅
+- 상품 설명, 블로그 글, SNS 문구의 초안 만들기 → [생성형 AI](#생성형-ai-generative-ai), [프롬프트](#프롬프트-prompt)
+- 고객 문의를 유형별로 분류하고 답변 초안 만들기 → [AI 워크플로 자동화](#ai-워크플로-자동화-ai-workflow-automation)
+- 고객 이름·전화번호·주문정보는 공개형 AI에 그대로 입력하지 않기 → [AI 리터러시](#ai-리터러시-ai-literacy)
+
+### 크리에이터 AI 콘텐츠 제작
+- 글·이미지·음성을 함께 다루기 → [멀티모달](#멀티모달-multimodal)
+- 아이디어 조사와 대본 초안을 분리해 검토하기 → [딥리서치](#딥리서치-deep-research), [할루시네이션](#할루시네이션-hallucination)
+- 반복되는 편집·배포 준비 단계를 연결하기 → [AI 워크플로 자동화](#ai-워크플로-자동화-ai-workflow-automation)
+
 ---
 
 ## 기술 용어
@@ -70,7 +115,7 @@ AI가 답하기 전에 **외부 자료를 먼저 찾아보고** 근거로 대답
 **AI끼리, AI와 도구가 연결되는 표준 규격**. 2026년 업계 표준으로 확정.
 > 비유: USB-C 포트. 규격이 통일되니 어떤 기기든 꽂히듯, AI가 캘린더·문서·슬랙을 표준 방식으로 오갈 수 있음.
 
-### 파인그레인드... 온디바이스 AI (On-device AI)
+### 온디바이스 AI (On-device AI)
 **클라우드 없이 내 폰·PC 안에서 도는** AI.
 > 비유: 매번 전화로 도움 받던 일을 내 손안에서 바로 해결하는 것. 인터넷 없이도 되고, 내 데이터가 밖으로 안 나감.
 
@@ -96,7 +141,9 @@ AI API를 쓸 때 **읽은 글자 + 쓴 글자만큼 내는 돈**. 2026년 들�
 
 새 용어가 나올 때마다 추가합니다. 매일 아침 최신 AI 소식을 쉽게 받으려면:
 
-📧 **[Ultrathink AI 뉴스레터 구독하기 — 첫 달 무료](https://page.stibee.com/subscriptions/480200?utm_source=github&utm_medium=glossary)**
+먼저 내용을 확인하려면 **[Ultrathink 공식 랜딩페이지](https://ai-morning-report-landing.vercel.app/?utm_source=github&utm_medium=organic&utm_campaign=ai_terms_kr&utm_content=bottom_cta)**를 방문하세요.
+
+📧 **[Ultrathink AI 뉴스레터 구독하기](https://page.stibee.com/subscriptions/480200?utm_source=github&utm_medium=organic&utm_campaign=ai_terms_kr&utm_content=bottom_subscribe)**
 
 ---
 
